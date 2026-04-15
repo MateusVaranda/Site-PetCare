@@ -15,33 +15,32 @@ header {
     padding: 20px 40px;
 }
 
+.logo{
+    display: inline-block;
+}
+
 .logo h2 {
-    font-size: 22px; 
-    font-weight: 600;
-    color: #1F7A63;
+ font-size: 22px;
+ font-weight: 600;
+ color: #1F7A63;
+}
+
+nav {
+    float: right;
+    display: inline-block;
+    margin-left: 40px;
 }
 
 nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #1F7A63;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
+ margin-left: 20px;
+ text-decoration: none;
+ color: #1F2933;
+ font-size: 14px;
+ font-weight: 500;
 }
 
-.hero {
-    padding: 60px 40px;
+nav a:hover {
+ border-bottom: 2px solid #1F7A63;
+ color: #1F7A63;
 }
 
-.hero h1 {
- font-size: 36px;
- font-weight: 600;
- margin-bottom: 20px;
-}
-
-.hero p {
- font-size: 16px;
- color: #6B7280;
- margin-bottom: 30px;
-}
