@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>PetCare</title>
 </head>
@@ -28,7 +31,7 @@
     <!--Hero Section-->
     <section class="hero">
         <div class="hero-text">
-            <h1>Cuidamos do seu pet com amor 🐶</h1>
+            <h1>Cuidamos do seu pet com <span class="hero-text-section">amor</span> 🐶</h1>
             <p>Banho, tosa e atendimento especializado com o carinho que seu melhor amigo merece.</p>
             <button class="btn-primary">Agendar agora</button>
             <button class="btn-secondary">Ver serviços</button>
@@ -42,29 +45,45 @@
     <!--Serviços-->
     <section class="services">
 
-        <span class="subtitle">Nossos Cuidados</span>
-        <h2>Serviços pensados para eles</h2>
+        <div class="services-subtitle">
+            <span class="subtitle-sp">Nossos Cuidados</span>
+            <h2>Serviços pensados para eles</h2>
+        </div>
 
         <div class="services-cads">
 
             <div class="card">
-                <h3>Banho e Tosa</h3>
-                <p>Higiene completa e cortes estilizados por profissionais que amam animais.</p>
+                <div class="card-servicos">
+                    <span class="icon-card"><i class="fa-solid fa-shower" style="color: #1f7a63;"></i></span>
+                    <h3>Banho e Tosa</h3>
+                    <p>Higiene completa e cortes estilizados por profissionais que amam animais.</p>
+                </div>
             </div>
 
             <div class="card">
-                <h3>Consulta Veterinária</h3>
-                <p>Cuidado preventivo e atendimento clínico especializado para saúde do seu pet.</p>
+                <div class="card-servicos">
+                    <span class="icon-card"><i class="fa-sharp fa-solid fa-briefcase-medical"
+                            style="color: #1f7a63;"></i></span>
+                    <h3>Consulta Veterinária</h3>
+                    <p>Cuidado preventivo e atendimento clínico especializado para saúde do seu pet.</p>
+                </div>
             </div>
 
             <div class="card">
-                <h3>Hotel para Pets</h3>
-                <p>Conforto e segurança para seu pet enquanto você viaja tranquilo.</p>
+                <div class="card-servicos">
+                    <span class="icon-card"><i class="fa-solid fa-bed" style="color: #1f7a63;"></i></span>
+                    <h3>Hotel para Pets</h3>
+                    <p>Conforto e segurança para seu pet enquanto você viaja tranquilo.</p>
+                </div>
             </div>
 
             <div class="card">
-                <h3>Loja de Produtos</h3>
-                <p>As melhores marcas de ração, brinquedos e acessórios premium.</p>
+                <div class="card-servicos">
+                    <span class="icon-card"><i class="fa-sharp fa-solid fa-bag-shopping"
+                            style="color: #1f7a63;"></i></span>
+                    <h3>Loja de Produtos</h3>
+                    <p>As melhores marcas de ração, brinquedos e acessórios premium.</p>
+                </div>
             </div>
         </div>
 
@@ -81,19 +100,19 @@
 
             <span class="subtitle">Nossa História</span>
 
-            <h2>Quem somos</h2>
+            <h2 class="about-title">Quem somos</h2>
 
             <p>A PetCare nasceu do sonho de oferecer um ambiente onde o bem-estar animal vem sempre em primeiro lugar.
                 Há mais de 10 anos, transformamos a rotina de cuidados em momentos de alegria.</p>
 
-            <div class="about-items">
+            <div class="about-item">
                 <div class="item">
-                    <h4>Diferenciais</h4>
+                    <h4>&rarr; Diferenciais</h4>
                     <p>Produtos hipoalergênicos, monitoramento 24h e equipe apaixonada por animais.</p>
                 </div>
 
                 <div class="item">
-                    <h4>Missão
+                    <h4>&rarr; Missão
                     </h4>
                     <p>Promover a saúde e felicidade dos pets através de serviços de excelência e amor.</p>
                 </div>
@@ -111,16 +130,11 @@
 
             <div class="contact-info">
                 <p>📍 Barra do Garças - MT</p>
-                <p>📞 (66) 99999-9999</p>
             </div>
 
             <button class="btn-whatsapp">
                 Falar pelo WhatsApp
             </button>
-        </div>
-
-        <div class="contact-image">
-            <img src="./img/contact.png" alt="contato">
         </div>
     </section>
 
